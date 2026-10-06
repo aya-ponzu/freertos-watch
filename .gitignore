@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------------------
+# Keil MDK-ARM build output
+# ---------------------------------------------------------------------------
+*.o
+*.crf
+*.d
+*.dep
+*.lnp
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lnp
+*.sct
+*.iex
+*.lst
+*.htm
+*.__i
+*.bak
+*.uvguix.*
+JLinkLog.txt
+
+# compiler output folder and generated RTE files
+MDK-ARM/hal_freertos_u8g2/
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# ---------------------------------------------------------------------------
+# editor / IDE caches
+# ---------------------------------------------------------------------------
+.vs/
+.vscode/
+*.vsidx
+*.VC.db
+*.ipch/
+*.suo
+*.user
+.idea/
+
+# ---------------------------------------------------------------------------
+# temporary files
+# ---------------------------------------------------------------------------
+*.zip
+*.log
+build.log
+build_check.log
+Thumbs.db
+desktop.ini
